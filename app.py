@@ -3,7 +3,7 @@ import requests
 from bs4 import BeautifulSoup
 
 auth_key = 'SUA CHAVE DE AUTENTICAÇÃO'
-url = 'https://docs.powerembedded.com.br/portal-de-administracao/navegacao-do-portal'
+url = 'SUA URL'
 
 response = requests.get(url)
 pagina_html = response.text
